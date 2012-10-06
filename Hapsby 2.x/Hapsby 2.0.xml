@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="build" name="Hapsby 2.0">
+    <!--
+    ****************************************
+    * build script for Haspby 2.0          *
+    * using Apache ANT 1.7.0.v200803061910 *
+    **************************************** -->    
+
+    <!--    
+    ****************************************
+    * init:                                *
+    * -set properties                      *
+    *  -source paths                       *
+    *  -output paths                       *
+    *  -jar name                           *
+    *  -package name                       *
+    **************************************** -->    
+    <target name="init">
+        <!-- source paths -->
+        <property name="sourcePath" value="src"/>
+        <property name="hsdSourcePath" value="hsd"/>
+        <property name="libSourcePath" value="lib"/>
+        <property name="xstreamPath" value="./${libSourcePath}/xstream/xstream-1.3.jar"/>
+        <property name="wizardPath" value="./${libSourcePath}/wizard.jar"/>
+    	<property name="imageSourcePath" value="${sourcePath}/com/huguesjohnson/hapsby/images"/>
+        <!-- output path -->
+        <property name="outputPath" value="./build/"/>
+        <property name="docOutputPath" value="${outputPath}javadoc/"/>
+        <property name="imageOutputPath" value="${outputPath}/com/huguesjohnson/hapsby/images"/>
+        <!-- name of the jar file to create -->
+        <property name="jarName" value="Hapsby.jar"/>
+        <!-- name of the package to create -->
+        <property name="packageName" value="Hapsby-v2.zip"/>
+        <property name="srcPackageName" value="Hapsby-v2-source.zip"/>
+    </target>
+	
+    <!--    
+    ****************************************
+    * clean:                               *
+    * -clean the previous build:           *
+    **************************************** -->
+    <target name="clean" depends="init">
+        <!-- delete everything in the output path -->
+        <delete dir="${outputPath}"/>
+        <!-- recreate the output directory -->
+        <mkdir dir="${outputPath}"/>
+    </target>
+
+    <!--    
+    ****************************************
+    * compile:                             *
+    * -javac all files                     *
+    **************************************** -->
+    <target name="compile" depends="init">
+        <!-- run compiler -->
+        <javac destdir="${outputPath}" srcdir="./${sourcePath}/com/huguesjohnson/" debug="off" optimize="on">
+            <classpath>
+                <pathelement path="${sourcePath}"/>
+                <pathelement path="${xstreamPath}"/>
+                <pathelement path="${wizardPath}"/>
+            </classpath>
+        	<include name="**/*.java"/>
+            <exclude name="**/HsdConvertor.java"/>
+        </javac>        
+    </target>
+
+    <!--    
+    ****************************************
+    * assemble:                            *
+    * -all required files assembled to     *
+    *  outputDir                           *
+    * -jar the compiled .class files       *
+    * -copy required files                 *
+    *  -themes                             *
+    *  -save game definitions              *
+    **************************************** -->
+    <target name="assemble" depends="init,compile">
+        <!-- copy over images -->
+        <mkdir dir="${imageOutputPath}"/>
+        <copy todir="${imageOutputPath}">
+            <fileset dir="./${imageSourcePath}">
+        		<include name="**/*.gif"/>
+        	</fileset>
+        </copy>     
+    	<!-- build the jar file -->
+        <jar destfile="${outputPath}/${jarName}" basedir="${outputPath}">
+            <manifest>
+                <attribute name="Main-Class" value="com/huguesjohnson/hapsby/Hapsby"/>
+                <attribute name="Class-Path" value="${xstreamPath} ${wizardPath}"/>
+            </manifest>
+        </jar>
+    </target>
+	
+    <!--    
+    ****************************************
+    * package the application:             *
+    * -copy the source code                *
+    * -put everything into a zip file      *
+    **************************************** -->
+    <target name="package" depends="init,clean,compile,assemble">
+    	<!-- create the source code pacakge -->
+        <zip destfile="${outputPath}/${srcPackageName}">
+			<!-- java source -->
+        	<fileset dir="${sourcePath}">
+                <include name="**/*.java"/>
+                <exclude name="**/HsdConvertor.java"/>
+			</fileset>
+			<fileset dir=".">
+                <include name="**/${libSourcePath}/**/*"/>
+                <include name="**/${hsdSourcePath}/**/*"/>
+                <include name="Hapsby*.xml"/>
+                <include name="gpl.htm"/>
+            </fileset>
+        </zip>
+        <!-- create the application package -->
+        <zip destfile="${outputPath}/${packageName}">
+        	<fileset dir="${outputPath}">
+                <include name="${jarName}"/>
+        	</fileset>
+			<fileset dir=".">
+                <include name="**/${libSourcePath}/**/*"/>
+                <include name="**/${hsdSourcePath}/**/*"/>
+                <include name="Readme.html"/>
+                <include name="gpl.htm"/>
+            </fileset>
+    	</zip>
+    </target>
+
+	<!--    
+    ****************************************
+    * build-docs:                          *
+    * -copy the help files                 *
+    * -build javadocs                      *
+    **************************************** -->
+    <target name="build-docs" depends="init">
+        <!-- build javadocs -->
+        <mkdir dir="${docOutputPath}"/>
+        <javadoc 
+        	destdir="${docOutputPath}"
+    		stylesheetfile="javadoc.css"
+        	Windowtitle="Hapsby 2.0 Javadoc"
+    		>
+        	<doctitle><![CDATA[<img src="http://huguesjohnson.com/images/logo_hapsby-bluegray.gif"></img>]]></doctitle>
+            <bottom><![CDATA[<i>Copyright &#169; 2000-2009 <a target="_top" href="http://www.huguesjohnson.com/">Hugues Johnson</a></i>]]></bottom>
+            <classpath>
+                <pathelement path="${sourcePath}"/>
+                <pathelement path="${xstreamPath}"/>
+                <pathelement path="${wizardPath}"/>
+            </classpath>
+        	<fileset dir="${sourcePath}">
+                <include name="**/*.java"/>
+                <exclude name="**/HsdConvertor.java"/>
+            </fileset>
+        </javadoc>
+    </target>
+	 
+    <!--    
+    ****************************************
+    * build:                               *
+    * -just call everything in order       *
+    **************************************** -->
+    <target name="build" depends="init,clean,compile,assemble,package,build-docs"/>
+</project>

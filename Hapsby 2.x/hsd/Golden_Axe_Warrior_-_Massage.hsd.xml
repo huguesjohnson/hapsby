@@ -1,0 +1,147 @@
+<com.huguesjohnson.hapsby.SaveGameDefinition>
+  <properties>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Horns (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Horns.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1069</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Keys (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Keys.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1070</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Sword (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Sword.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;p&gt;0=No Sword&lt;/p&gt;&lt;p&gt;1=Have Sword&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1072</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Axe (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Axe.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;p&gt;0=No Axe&lt;/p&gt;&lt;p&gt;1=Have Axe&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1073</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Potion (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Potion.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;p&gt;0=No Potion&lt;/p&gt;&lt;p&gt;1=Have Potion&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1074</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Torch (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Torch.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;p&gt;0=No Torch&lt;/p&gt;&lt;p&gt;1=Have Torch&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1075</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Blue Scroll (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#0000CC&gt;&lt;p&gt;Blue Scroll.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;p&gt;0=No Scroll&lt;/p&gt;&lt;p&gt;1=Have Scroll&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1076</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Green Scroll (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#00CC00&gt;&lt;p&gt;Green Scroll.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;p&gt;0=No Scroll&lt;/p&gt;&lt;p&gt;1=Have Scroll&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1077</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Red Scroll (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#CC0000&gt;&lt;p&gt;Red Scroll.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;p&gt;0=No Scroll&lt;/p&gt;&lt;p&gt;1=Have Scroll&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1078</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>White Scroll (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#FFFFFF&gt;&lt;p&gt;White Scroll.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;p&gt;0=No Scroll&lt;/p&gt;&lt;p&gt;1=Have Scroll&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1079</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Fruit (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Fruit.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;p&gt;0=No Fruit&lt;/p&gt;&lt;p&gt;1=Have Fruit&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1080</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Feather (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Feather.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;p&gt;0=No Feather&lt;/p&gt;&lt;p&gt;1=Have Feather&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1081</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Bell (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Bell.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;p&gt;0=No Bell&lt;/p&gt;&lt;p&gt;1=Have Bell&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1082</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Balloon (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Balloon.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;p&gt;0=No Balloon&lt;/p&gt;&lt;p&gt;1=Have Balloon&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1083</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+  </properties>
+  <gameTitle>Golden Axe Warrior</gameTitle>
+  <gameDescription>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;&lt;p&gt;Massage/Meka save state for Golden Axe Warrior. &lt;/p&gt;&lt;p&gt;Do not use while emulator is running. &lt;/p&gt;&lt;p&gt;Use with .sav files only.&lt;/p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</gameDescription>
+  <saveFilePattern>*.sav</saveFilePattern>
+</com.huguesjohnson.hapsby.SaveGameDefinition>

@@ -1,0 +1,57 @@
+<com.huguesjohnson.hapsby.SaveGameDefinition>
+  <properties>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>MU</name>
+      <description>&lt;html&gt;&lt;font color=#666699&gt;Money units (&lt;b&gt;$$$$$$$$&lt;/b&gt; MU).&lt;/font&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>48297</address>
+      <length>3</length>
+      <maxValue>9999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Hour</name>
+      <description>&lt;html&gt;&lt;font color=#666699&gt;Hour of day (&lt;b&gt;HH&lt;/b&gt;:DD-MM-YYYY).&lt;/font&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>47284</address>
+      <length>1</length>
+      <maxValue>23</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Day</name>
+      <description>&lt;html&gt;&lt;font color=#666699&gt;Day of month (HH:&lt;b&gt;DD&lt;/b&gt;-MM-YYYY).&lt;/font&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>47285</address>
+      <length>1</length>
+      <maxValue>30</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Month</name>
+      <description>&lt;html&gt;&lt;font color=#666699&gt;Month of year (HH:DD-&lt;b&gt;MM&lt;/b&gt;-YYYY).&lt;/font&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>47286</address>
+      <length>1</length>
+      <maxValue>12</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Year</name>
+      <description>&lt;html&gt;&lt;font color=#666699&gt;Year (HH:DD-MM-&gt;YY&lt;b&gt;YY&lt;/b&gt;).&lt;p&gt;Not sure exactly how this one works...you get a ARTH FLARED message if you haven&apos;t destroyed the crystal planet yet and change the year to anything but (46)20.&lt;/p&gt;&lt;/font&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>47287</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>21</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+  </properties>
+  <gameTitle>StarFlight</gameTitle>
+  <gameDescription>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;&lt;p&gt;Genecyst X/Gens save state for StarFlight.&lt;/p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</gameDescription>
+  <saveFilePattern>*.gs*</saveFilePattern>
+</com.huguesjohnson.hapsby.SaveGameDefinition>

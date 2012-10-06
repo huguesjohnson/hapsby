@@ -1,0 +1,227 @@
+<com.huguesjohnson.hapsby.SaveGameDefinition>
+  <properties>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Bombs</name>
+      <description>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;&lt;p&gt;Number of bombs Link is carrying.&lt;/p&gt;&lt;p&gt;Please adjust Max Bombs accordingly.&lt;/p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1708</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Rupees</name>
+      <description>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;Number of rupees ($$).&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1729</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Max Bombs</name>
+      <description>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;Maximum number of bombs Link can carry.&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1744</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Keys</name>
+      <description>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;Number of keys Link is carrying.&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1730</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Candle</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;0=no candle&lt;/font&gt;&lt;font color=#0000D2&gt; 1=blue candle&lt;/font&gt;&lt;font color=#D20000&gt; 2=red candle&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1711</address>
+      <length>1</length>
+      <maxValue>2</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Shield</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;0=small shield  1=large shield&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1738</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Sword</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;0=no sword  1=wood sword  2=silver sword  3=magic sword  4=mystery sword&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1707</address>
+      <length>1</length>
+      <maxValue>4</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Bow</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;0=no bow  1=bow&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1710</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Boomerang - normal</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;0=none  1=boomerang&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1736</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Enemy Bait</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;0=none  1=enemy bait&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1713</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Arrow</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;0=no arrow  1=regular arrow  2=silver arrow&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1709</address>
+      <length>1</length>
+      <maxValue>2</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Boomerang - blue</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;0=none&lt;/font&gt;&lt;font color=#0000D2&gt; 1=boomerang&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1737</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Raft</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;0=none  1=raft&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1716</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Ring</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;p&gt;&lt;font color=#666699&gt;0=none&lt;/font&gt;&lt;font color=#0000D2&gt; 1=blue&lt;/font&gt;&lt;font color=#D20000&gt; 2=red&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=#666699&gt;Note: palate will not change to reflect new color but ring will be in effect.&lt;/font&gt;&lt;/p&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1718</address>
+      <length>1</length>
+      <maxValue>2</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Bridge</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;0=none  1=bridge&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1719</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Letter</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;0=no letter  1=have letter  2=shown letter to old woman&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1722</address>
+      <length>1</length>
+      <maxValue>2</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Potion</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;0=none&lt;/font&gt;&lt;font color=#0000D2&gt; 1=blue&lt;/font&gt;&lt;font color=#D20000&gt; 2=red&lt;/font&gt;&lt;font color=#000000&gt; 3=mystery potion (3 uses)&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1714</address>
+      <length>1</length>
+      <maxValue>3</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Power Bracelet</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;0=none  1=power bracelet&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1721</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Flute</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;0=none  1=flute&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1712</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Wand</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;0=none  1=wand&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1715</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Magic Book</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;0=none  1=magic book&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1717</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Magic Key</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;0=none  1=magic key&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1720</address>
+      <length>1</length>
+      <maxValue>1</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+  </properties>
+  <gameTitle>Legend of Zelda</gameTitle>
+  <gameDescription>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;FCE Ultra save state for Legend of Zelda.&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</gameDescription>
+  <saveFilePattern>*.fc*</saveFilePattern>
+</com.huguesjohnson.hapsby.SaveGameDefinition>

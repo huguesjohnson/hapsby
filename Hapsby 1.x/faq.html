@@ -1,0 +1,244 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Hapsby Frequently Asked Questions</title>
+</head>
+
+<body link="#666699" vlink="#666699" alink="#666699">
+
+<p align="center"><font size="3">Hapsby Frequently Asked Questions</font></p>
+<p align="center"><font size="3">Last updated: 7/18/01</font></p>
+<p align="center"><font size="3">(C) 2000-2001 Hugues Johnson</font></p>
+<hr color="#666699">
+<p align="left"><font size="3">Contents</font></p>
+<ol>
+  <li>
+    <p align="left"><font size="3">General Questions</font>
+    <ol>
+      <li type="i">
+        <p align="left"><font size="1">What does 'Hapsby' stand for?</font></li>
+      <li type="i">
+        <p align="left"><font size="1">Your program destroyed one of my saved
+        games!</font></li>
+      <li type="i">
+        <p align="left"><font size="1">I tried editing a save game and nothing
+        happened!</font></li>
+      <li type="i">
+        <p align="left"><font size="1">What's all this GNU General Public
+        License stuff mean?</font></li>
+      <li type="i">
+        <p align="left"><font size="1">When I tried to run Hapsby I received the
+        error &quot;Exception in thread "main" java.util.zip.ZipException&quot;.</font></li>
+    </ol>
+  </li>
+  <li>
+    <p align="left"><font size="3">Java Runtime</font>
+    <ol>
+      <li type="i">
+        <p align="left"><font size="1">Why can't I run Java programs?</font></li>
+      <li type="i">
+        <p align="left"><font size="1">How do I set my CLASSPATH?</font></li>
+      <li type="i">
+        <p align="left"><font size="1">Where is the Java Runtime Environment
+        for operating system XXXX?</font></li>
+      <li type="i">
+        <p align="left"><font size="1">Why do .jar files use the WordPad icon?</font></li>
+    </ol>
+  </li>
+  <li>
+    <p align="left"><font size="3">Development</font>
+    <ol type="i">
+      <li>
+        <p align="left"><font size="1">How do I do XXXX in Java?</font></li>
+      <li>
+        <p align="left"><font size="1">I made some changes to your code, do you
+        want them?</font></li>
+    </ol>
+  </li>
+</ol>
+<hr color="#666699">
+<p align="left"><font size="3">1. General Questions</font></p>
+<p align="left"><font size="3">i. What does 'Hapsby' stand for?</font></p>
+<blockquote>
+  <p align="left"><font size="2">This program originally started as a save game editor for the
+  Phantasy Star series. While working on the design I decided to create a
+  &quot;plug in&quot; system so that future Phantasy Star releases could be
+  supported. Adding this feature effectively made it universal save game editor,
+  so I scrapped the Phantasy Star editor idea and focused on making this a
+  more flexible program.</font></p>
+  <p align="left"><font size="2">Anyways, I decided to honor the original intentions by naming
+  it after a character from Phantasy Star. I went with Hapsby for two
+  reasons: (1) it was a pretty obscure reference that only die-hard Phantasy
+  Star geeks get and (2) Alis, Odin, Myau, and Noah all sounded awful.&nbsp;</font></p>
+</blockquote>
+<p align="left"><font size="3">ii. Your program destroyed one of of my saved games!</font></p>
+<blockquote>
+<p align="left"><font size="2">Well, that's not really a question but....</font> </p>
+<p align="left"><font size="2">I warned you to make backups, I even included an auto-backup
+feature (it's even turned on by default). But you didn't use it. I have no sympathy for you.</font></p>
+<p align="left"><font size="2">Oh, what's that you say... you didn't know about
+the auto-backup feature? Open up index.html in the \docs folder to see
+instructions on how to restore a backed-up save game.</font></p>
+</blockquote>
+<p align="left"><font size="3">iii. I tried editing a save game and nothing
+happened!</font></p>
+<blockquote>
+  <p align="left"><font size="2">Well, that's not really a question either
+  but....</font></p>
+  <p align="left"><font size="2">Sometimes you have to &quot;refresh&quot; the
+  screen before you'll see the changes take effect. For example:</font></p>
+  <p align="left"><font size="2"><b>Phantasy Star Series:</b> If you save your
+  game on the status screen, then edit the save game with Hapsby, then reload
+  the save game you won't see any difference until you exit the status screen
+  and re-enter it. Also, if you edit your experience points you won't gain
+  levels until after you win your next battle.</font></p>
+  <p align="left"><font size="2"><b>Faxandu:</b> This one is especially weird -
+  if you edit your experience points you have to go visit a priest before
+  gaining levels. If you edit your golds :) you won't see the new value until
+  you do something like enter a building or collect a coin.</font></p>
+  <p align="left"><font size="2"><b>Legend of Zelda:</b> If you give yourself
+  the blue or red ring, Link's color doesn't change. Go get yourself hit a few
+  times and you'll see that the ring is in full-effect though. When Link
+  actually picks up one of the rings the palette-change event is
+  triggered.&nbsp;&nbsp;</font></p>
+</blockquote>
+<p align="left"><font size="3">iv. What's all this GNU General Public License stuff mean?</font></p>
+<blockquote>
+  <p align="left"><font size="2">The GNU General Public License is a legal document that allows
+  software developers to write free software and distribute it freely. This is
+  similar, but <b>not</b> the same as an open source license. For complete
+  details read the gpl.html file that was included with this software, or visit <a href="http://www.gnu.org/">gnu.org</a>.</font></p>
+  <p align="left"><font size="2">Basically, you can do anything you want with the code, including sell your new version.  The catch
+  is that if you distribute new binary versions, you are required to make the entire source code
+  available for free to everyone.</font></p>
+  <p align="left"><font size="2">If you want to redistribute this program on your web site
+  please contact the author in advance.</font></p>
+</blockquote>
+<p align="left"><font size="3">v. When I tried to run Hapsby I received the
+error &quot;Exception in thread "main" java.util.zip.ZipException&quot;.</font>
+<blockquote>
+  <p align="left"><font size="2">Under Windows you may receive the following
+  error when running the file hapsby.bat:</font>
+  <blockquote>
+    <p align="left"><font size="1">Exception in thread "main" java.util.zip.ZipException: The system cannot find the file specified<br>
+        at java.util.zip.ZipFile.open(Native Method)<br>
+        at java.util.zip.ZipFile.&lt;init>(Unknown Source)<br>
+        at java.util.jar.JarFile.&lt;init>(Unknown Source)<br>
+        at java.util.jar.JarFile.&lt;init>(Unknown Source)</font>
+  </blockquote>
+  <p align="left"><font size="2">This is simply a pathing nuisance. I'm not sure
+  if this is Window's or Java's fault but it certainly is annoying. To avoid it
+  you need to make sure you are actually in the directory containing hapsby.bat
+  and not running it from another directory. For example:</font>
+  <blockquote>
+    <p align="left"><font size="2"><b>Good</b>: C:\hapsby\bin\win32&gt;hapsby.bat</font><p align="left"><font size="2"><b>Bad</b>:
+    C:\&gt;hapsby\bin\win32\hapsby.bat</font>
+  </blockquote>
+</blockquote>
+<hr color="#666699">
+<p align="left"><font size="3">2. Java Runtime</font></p>
+<p align="left"><font size="3">** Please note: this is in no way an official reference for
+Java, only a brief guide to some common woes. For official documentation
+please visit the <a href="http://java.sun.com/">Sun Microsystems Java site</a>
+**</font></p>
+<p align="left"><font size="3">i. Why can't I run Java programs?</font></p>
+<blockquote>
+  <p align="left"><font size="2">There are two likely problems:&nbsp;</font></p>
+  <p align="left"><font size="2">1) You need the newest version of the Java Runtime
+  Environment.</font></p>
+  <p align="left"><font size="2">2) Your operating system doesn't have a path set the Java
+  bin directory (see next question). Some operating systems (like Windows
+  95/98/NT) have problems with the Java Runtime install and don't update
+  system PATH variables. This doesn't mean Java is installed incorrectly,
+  it's just not being 'pointed to' by the operating system. Please note, Java Runtime
+  1.3.0 appears to have this problem completely resolved now.&nbsp;</font></p>
+</blockquote>
+<p align="left"><font size="3">ii. How do I set my CLASSPATH?</font></p>
+<blockquote>
+<p align="left"><font size="2">It depends on your operating system. See one of the following
+articles:</font></p>
+<p align="left"><a href="http://developer.java.sun.com/developer/onlineTraining/Programming/BasicJava1/windows.html"><font size="2">Setting
+the <code>CLASSPATH</code> Environment Variable on the Windows Platform</font></a></p>
+  <p align="left"><a href="http://java.sun.com/products/jdk/1.3/docs/tooldocs/win32/classpath.html"><font size="2">Setting
+  the CLASSPATH</font></a></p>
+<p align="left"><a href="http://developer.apple.com/java/javatutorial/index.html"><font size="2">Apple's
+Introduction to Java Programming</font></a></p>
+<p align="left"><a href="http://developer.java.sun.com/developer/techDocs/SearchData/qa/Path_and_Classpath.html"><font size="2">Path
+and Classpath (Sun Technical Article Number: 609)</font></a></p>
+</blockquote>
+<p align="left"><font size="3">iii. Where is the Java Runtime Environment for
+operating system XXXX?</font></p>
+<blockquote>
+  <p align="left"><font size="2">The Hapsby homepage contains current links for:
+  Windows 95/98/2000/NT4,</font> <font size="2">Linux,</font> &amp; <font size="2">MacOS.
+  This page is updated more often than this FAQ so go pay it a visit: <a href="http://www.HuguesJohnson.com/hapsby.html">http://www.HuguesJohnson.com/hapsby.html</a></font></p>
+  <p align="left"><font size="2"><b><u>Other Platforms</u></b></font></p>
+  <p align="left"><font size="2"><b>Windows CE or XP:</b> Currently <a href="http://www.sun.com/">Sun</a>
+  does not support these versions of Windows. However, it's very likely that the
+  Windows 2000 JRE will work in Windows XP - <b>but do so at your own risk</b>.</font></p>
+  <p align="left"><font size="2"><b>PalmOS:</b> PalmOS 4.0 is fully Java
+  compatible.</font></p>
+  <p align="left"><font size="2"><b>Unix:</b> There are too many Unix platforms
+  for me to even attempt this. It should be obvious that the JRE is available
+  for Solaris, but outside of that I can't help.</font></p>
+  <p align="left"><font size="2"><b>BeOS:</b> According to <a href="http://be.com/">be.com</a>
+  the JRE for BeOS is under way, nothing's been released yet though. The JRE for
+  <a href="http://www.redhat.com/">RedHat Linux</a> is built using <a href="http://www.gnu.org/">gcc</a>,
+  since <a href="http://www.gnu.org/">gcc</a> is also bundled with BeOS it seems
+  that someone (not me) could port this code.</font></p>
+  <p align="left"><font size="2"><b>Amiga:</b> Just like BeOS, <a href="http://www.amiga.com/">amiga.com</a>
+  also promises a JRE for Amiga, but there's no sign of it whatsoever.&nbsp;The
+  rights to Amiga were recently sold by <a href="http://www.gateway.com/">Gateway</a>
+  to small start-up company. I have heard they are committed to adding Java
+  support for the Amiga platform.</font></p>
+  <p align="left"><font size="2"><b>Windows NT 3.51: </b>Sorry, outta luck.</font></p>
+  <p align="left"><font size="2"><b>MS-DOS/Windows 3.x:</b>  Go directly to
+  jail, do not pass Go, do not collect $200.</font></p>
+</blockquote>
+<p align="left"><font size="3">iv. Why do .jar files use the WordPad icon?</font></p>
+<blockquote>
+  <p align="left"><font size="2">I've wondered this one myself for a while. I
+  really don't have any idea. If it's annoying you: open up Windows explorer and
+  select &quot;<u>V</u>iew-&gt;Folder <u>O</u>ptions&quot; from the menu (or
+  &quot;<u>T</u>ools-&gt;Folder <u>O</u>ptions&quot; depending on what version
+  you have). Now click on the &quot;File Types&quot; panel, select the .jar file
+  extension, then hit the advanced button and choose a new icon.</font></p>
+</blockquote>
+<hr color="#666699">
+<p align="left"><font size="3">3. Development</font></p>
+<p align="left"><font size="3">i. How do I do XXXX in Java?</font></p>
+<blockquote>
+<p align="left"><font size="2">I'm sorry but I won't answer any Java programming questions. I
+worked as a teaching assistant for several years in college, and probably will
+again. If you're in one of my classes then I'll
+gladly help you, otherwise I won't.</font></p>
+  <p align="left"><font size="2">Please see Sun's Java site (<a href="http://java.sun.com/">http://java.sun.com/</a>)
+  for Java programming help. There is a complete Java tutorial and developer's
+  forum located there.</font></p>
+</blockquote>
+<p align="left"><font size="3">ii. I made some changes to your code, do you want them?</font></p>
+<blockquote>
+  <p align="left"><font size="2">Probably. If you've made a significant improvement or bug fix
+  I'd like to see it. If I end up using it I'll credit your contribution in the
+  release.</font></p>
+  <p align="left"><font size="2">Please ask before sending any code, there's a chance that I
+  (or someone else) has already made the same change you did.</font> </p>
+</blockquote>
+<hr color="#666699">
+<p align="left"><font size="3">Legal Notes</font></p>
+<p align="left"><font size="2">Java and Solaris are a trademarks of <a href="http://www.sun.com/">Sun
+Microsystems</a></font></p>
+<p align="left"><font size="2">Windows 95/98/2000/NT and MS-DOS are trademarks of <a href="http://microsoft.com/">Microsoft</a></font></p>
+<p align="left"><font size="2">Phantasy Star is a trademark of <a href="http://www.sega.com/">Sega</a></font></p>
+<p align="left"><font size="2">BeOS is a trademark of <a href="http://be.com/">Be
+Inc</a></font></p>
+<p align="left"><font size="2">Amiga is a trademark of whoever owns them this
+week</font></p>
+<p align="left"><font size="2">All written content is property of <a href="http://www.huguesjohnson.com/"> Hugues Johnson</a></font></p>
+
+</body>
+
+</html>

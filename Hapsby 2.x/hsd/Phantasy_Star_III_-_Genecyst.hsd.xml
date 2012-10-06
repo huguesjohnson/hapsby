@@ -1,0 +1,707 @@
+<com.huguesjohnson.hapsby.SaveGameDefinition>
+  <properties>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>All Generations: Meseta</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Meseta.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58552</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>All Generations: Mieu - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Mieu.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58802</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>All Generations: Mieu - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Mieu.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58794</address>
+      <length>2</length>
+      <maxValue>233</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>All Generations: Mieu - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Mieu.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58796</address>
+      <length>2</length>
+      <maxValue>178</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>All Generations: Wren - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Wren.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58930</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>All Generations: Wren - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Wren.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58922</address>
+      <length>2</length>
+      <maxValue>309</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>All Generations: Wren - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Wren.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58924</address>
+      <length>2</length>
+      <maxValue>94</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>1st Gen (Rhys): Rhys - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Rhys.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58674</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>1st Gen (Rhys): Rhys - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Rhys.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58666</address>
+      <length>2</length>
+      <maxValue>150</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>1st Gen (Rhys): Lyle - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Lyle.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59058</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>1st Gen (Ryhs): Lyle - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Lyle.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59050</address>
+      <length>2</length>
+      <maxValue>174</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>1st Gen (Rhys): Lyle - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Lyle.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59052</address>
+      <length>2</length>
+      <maxValue>123</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>1st Gen (Rhys): Lena - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Lena.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59186</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>1st Gen (Rhys): Lena - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Lena.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59178</address>
+      <length>2</length>
+      <maxValue>127</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>2nd Gen (Ayn): Ayn - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Ayn.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58674</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>2nd Gen (Ayn): Ayn - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Ayn.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58666</address>
+      <length>2</length>
+      <maxValue>155</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>2nd Gen (Ayn): Ayn - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Ayn.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58668</address>
+      <length>2</length>
+      <maxValue>119</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>2nd Gen (Ayn): Thea - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Thea.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59058</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>2nd Gen (Ayn): Thea - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Thea.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59050</address>
+      <length>2</length>
+      <maxValue>172</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>2nd Gen (Ayn): Thea - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Thea.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59052</address>
+      <length>2</length>
+      <maxValue>135</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>2nd Gen (Ayn): Sari - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Sari.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59186</address>
+      <length>4</length>
+      <maxValue>16777215</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>2nd Gen (Ayn): Sari - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Sari.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59178</address>
+      <length>2</length>
+      <maxValue>329</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>2nd Gen (Nial): Nial - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Nial.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58674</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>2nd Gen (Nial): Nial - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Nial.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58666</address>
+      <length>2</length>
+      <maxValue>189</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>2nd Gen (Nial): Ryan - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Ryan.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59058</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>2nd Gen (Nial): Ryan - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Ryan.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59050</address>
+      <length>2</length>
+      <maxValue>220</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>2nd Gen (Nial): Ryan - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Ryan.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59052</address>
+      <length>2</length>
+      <maxValue>126</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>2nd Gen (Nial): Laya - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Laya.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59186</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>2nd Gen (Nial): Laya - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Laya.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59178</address>
+      <length>2</length>
+      <maxValue>235</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>2nd Gen (Nial): Laya - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Laya.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59180</address>
+      <length>2</length>
+      <maxValue>191</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Sean): Sean - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Sean.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58674</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Sean): Sean - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Sean.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58666</address>
+      <length>2</length>
+      <maxValue>245</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Sean): Sean - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Sean.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58668</address>
+      <length>2</length>
+      <maxValue>180</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Sean): Laya - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Laya.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59058</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Sean): Laya - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Laya.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59050</address>
+      <length>2</length>
+      <maxValue>219</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Sean): Laya - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Laya.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59052</address>
+      <length>2</length>
+      <maxValue>189</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Sean): Kara - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Kara.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59186</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Sean): Kara - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Kara.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59178</address>
+      <length>2</length>
+      <maxValue>221</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Sean): Kara - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Kara.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59180</address>
+      <length>2</length>
+      <maxValue>159</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Crys): Crys - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Crys.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58674</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Crys): Crys - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Crys.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58666</address>
+      <length>2</length>
+      <maxValue>290</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Crys): Crys - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Crys.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58668</address>
+      <length>2</length>
+      <maxValue>164</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Crys): Laya - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Laya.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59058</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Crys): Laya - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Laya.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59050</address>
+      <length>2</length>
+      <maxValue>219</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Crys): Laya - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Laya.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59052</address>
+      <length>2</length>
+      <maxValue>189</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Crys): Kara - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Kara.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59186</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Crys): Kara - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Kara.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59178</address>
+      <length>2</length>
+      <maxValue>241</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Crys): Kara - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Kara.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59180</address>
+      <length>2</length>
+      <maxValue>168</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Adan): Adan - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Sean.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58674</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Adan): Adan - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Adan.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58666</address>
+      <length>2</length>
+      <maxValue>253</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Adan): Adan - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Adan.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58668</address>
+      <length>2</length>
+      <maxValue>187</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Adan): Gwyn - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Gwyn.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59058</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Adan): Gwyn - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Gwyn.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59050</address>
+      <length>2</length>
+      <maxValue>235</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Adan): Gwyn - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Gwyn.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59052</address>
+      <length>2</length>
+      <maxValue>194</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Adan): Kara - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Kara.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59186</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Adan): Kara - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Kara.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59178</address>
+      <length>2</length>
+      <maxValue>267</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Adan): Kara - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Kara.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59180</address>
+      <length>2</length>
+      <maxValue>193</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Aron): Aron - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Aron.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58674</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Aron): Aron - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Aron.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58666</address>
+      <length>2</length>
+      <maxValue>253</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Aron): Aron - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Aron.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58668</address>
+      <length>2</length>
+      <maxValue>184</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Aron): Kara - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Kara.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59058</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Aron): Kara - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Kara.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59050</address>
+      <length>2</length>
+      <maxValue>265</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Aron): Kara - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Kara.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59052</address>
+      <length>2</length>
+      <maxValue>183</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Aron): Laya - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Laya.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59186</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Aron): Laya - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Laya.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59178</address>
+      <length>2</length>
+      <maxValue>226</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>3rd Gen (Aron): Laya - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Laya.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>59180</address>
+      <length>2</length>
+      <maxValue>204</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>All Generations: Physical X-Location</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Physical X-Location of main character&lt;/p&gt;&lt;p&gt;Must match the value of Sprite X-Location&lt;/p&gt;&lt;/font&gt;&lt;font color=#BB0000&gt;&lt;p&gt;Edit with caution!&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58496</address>
+      <length>2</length>
+      <maxValue>65535</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>All Generations: Sprite X-Location</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Sprite X-Location of main character&lt;/p&gt;&lt;p&gt;Must match the value of Physical X-Location&lt;/p&gt;&lt;/font&gt;&lt;font color=#BB0000&gt;&lt;p&gt;Edit with caution!&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58624</address>
+      <length>2</length>
+      <maxValue>65535</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>All Generations: Physical Y-Location</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Physical Y-Location of main character&lt;/p&gt;&lt;p&gt;Must match the value of Sprite Y-Location&lt;/p&gt;&lt;/font&gt;&lt;font color=#BB0000&gt;&lt;p&gt;Edit with caution!&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58498</address>
+      <length>2</length>
+      <maxValue>65535</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>All Generations: Sprite Y-Location</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Sprite Y-Location of main character&lt;/p&gt;&lt;p&gt;Must match the value of Physical Y-Location&lt;/p&gt;&lt;/font&gt;&lt;font color=#BB0000&gt;&lt;p&gt;Edit with caution!&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58626</address>
+      <length>2</length>
+      <maxValue>65535</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+  </properties>
+  <gameTitle>Phantasy Star III</gameTitle>
+  <gameDescription>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;&lt;p&gt;Genecyst X/Gens save state for Phantasy Star III: Generations of Doom. &lt;/p&gt;&lt;p&gt;English, Japanese, and Portuguese versions are supported. &lt;/p&gt;&lt;p&gt;Use with .gs# files, will NOT work with .gsv files.&lt;/p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</gameDescription>
+  <saveFilePattern>*.gs*</saveFilePattern>
+</com.huguesjohnson.hapsby.SaveGameDefinition>
