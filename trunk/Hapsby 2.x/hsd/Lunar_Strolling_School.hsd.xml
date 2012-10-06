@@ -1,0 +1,157 @@
+<com.huguesjohnson.hapsby.SaveGameDefinition>
+  <properties>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Elie - Current HP (Save Slot#1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Current HP for Elie.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>149</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Elie - Maximum HP (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Maximum HP for Elie.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>151</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Elie - Current MP (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Current MP for Elie.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>153</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Elie - Maximum MP (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Maximum MP for Elie.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>155</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Elie - Attack (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Elie&apos;s attack value.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>145</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Elie - Defence (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Elie&apos;s defence value.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>146</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Elie - Wisdom (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Elie&apos;s wisdom value.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>147</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Rena - Current HP (Save Slot#1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Current HP for Rena.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>149</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Rena - Maximum HP (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Maximum HP for Rena.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>151</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Rena - Current MP (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Current MP for Rena.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>153</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Rena - Maximum MP (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Maximum MP for Rena.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>155</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Rena - Attack (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Rena&apos;s attack value.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>145</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Rena - Defence (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Rena&apos;s defence value.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>146</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Rena - Wisdom (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Rena&apos;s wisdom value.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>147</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Rena - Exp to next level (1)</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Exp to gain a level.&lt;/p&gt;&lt;p&gt;Save slot 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>201</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+  </properties>
+  <gameTitle>Lunar Strolling School</gameTitle>
+  <gameDescription>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;&lt;p&gt;Massage/Meka save state for Lunar Strolling School. &lt;/p&gt;&lt;p&gt;Do not use while emulator is running. &lt;/p&gt;&lt;p&gt;Use with .sav files only.&lt;/p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</gameDescription>
+  <saveFilePattern>*.sav</saveFilePattern>
+</com.huguesjohnson.hapsby.SaveGameDefinition>

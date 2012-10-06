@@ -1,0 +1,247 @@
+<com.huguesjohnson.hapsby.SaveGameDefinition>
+  <properties>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Meseta</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Meseta.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>60056</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Rolf - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Rolf.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58501</address>
+      <length>3</length>
+      <maxValue>16777215</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Rolf - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Rolf.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58490</address>
+      <length>2</length>
+      <maxValue>328</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Rolf - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Rolf.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58495</address>
+      <length>1</length>
+      <maxValue>162</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Nei - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Nei.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58565</address>
+      <length>3</length>
+      <maxValue>16777215</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Nei - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Nei.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58555</address>
+      <length>1</length>
+      <maxValue>196</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Nei - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Nei.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58559</address>
+      <length>1</length>
+      <maxValue>90</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Rudo - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Rudolf Steiner.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58629</address>
+      <length>3</length>
+      <maxValue>16777215</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Rudo - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Rudolf Steiner.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58618</address>
+      <length>2</length>
+      <maxValue>406</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Amy - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Amy Sage.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58693</address>
+      <length>3</length>
+      <maxValue>16777215</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Amy - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Amy Sage.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58683</address>
+      <length>1</length>
+      <maxValue>238</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Amy - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Amy Sage.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58687</address>
+      <length>1</length>
+      <maxValue>193</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Hugh - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Hugh Thompson.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58757</address>
+      <length>3</length>
+      <maxValue>16777215</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Hugh - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Hugh Thompson.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58746</address>
+      <length>2</length>
+      <maxValue>267</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Hugh - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Hugh Thompson.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58751</address>
+      <length>1</length>
+      <maxValue>169</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Anna - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Anna Zirski.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58821</address>
+      <length>3</length>
+      <maxValue>16777215</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Anna - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Anna Zirski.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58810</address>
+      <length>2</length>
+      <maxValue>310</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Anna - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Anna Zirski.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58815</address>
+      <length>1</length>
+      <maxValue>98</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Kain - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Josh Kain.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58885</address>
+      <length>3</length>
+      <maxValue>16777215</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Kain - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Josh Kain.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58874</address>
+      <length>2</length>
+      <maxValue>278</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Kain - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Josh Kain.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58879</address>
+      <length>1</length>
+      <maxValue>190</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Shir - XP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Shir Gold.&lt;/p&gt;&lt;p&gt;Levels will be gained after next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58949</address>
+      <length>3</length>
+      <maxValue>16777215</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Shir - HP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Hit points for Shir Gold.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58938</address>
+      <length>2</length>
+      <maxValue>287</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Shir - MP</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;Magic points for Shir Gold.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>58943</address>
+      <length>1</length>
+      <maxValue>83</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+  </properties>
+  <gameTitle>Phantasy Star II</gameTitle>
+  <gameDescription>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;&lt;p&gt;Genecyst X/Gens save state for Phantasy Star II. &lt;/p&gt;&lt;p&gt;Both English and Japanese versions are supported. &lt;/p&gt;&lt;p&gt;Use with .gs# files, will NOT work with .gsv files.&lt;/p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</gameDescription>
+  <saveFilePattern>*.gs*</saveFilePattern>
+</com.huguesjohnson.hapsby.SaveGameDefinition>

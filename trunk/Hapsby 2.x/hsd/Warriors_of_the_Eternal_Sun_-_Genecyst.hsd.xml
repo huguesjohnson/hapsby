@@ -1,0 +1,407 @@
+<com.huguesjohnson.hapsby.SaveGameDefinition>
+  <properties>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 1: Strength</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Strength for Character 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46582</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 1: Intelligence</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Intelligence for Character 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46583</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 1: Wisdom</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Wisdom for Character 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46584</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 1: Dexterity</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Dexterity for Character 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46585</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 1: Constitution</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Constitution for Character 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46586</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 1: Charisma</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Charisma for Character 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46587</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 1: Experience</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Character 1.&lt;/p&gt;&lt;p&gt;Levels will be gained after the next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46588</address>
+      <length>4</length>
+      <maxValue>999999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 1: Gold</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Gold for Character 1.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46541</address>
+      <length>3</length>
+      <maxValue>9999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 2: Strength</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Strength for Character 2.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46732</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 2: Intelligence</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Intelligence for Character 2.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46733</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 2: Wisdom</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Wisdom for Character 2.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46734</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 2: Dexterity</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Dexterity for Character 2.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46735</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 2: Constitution</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Constitution for Character 2.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46736</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 2: Charisma</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Charisma for Character 2.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46737</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 2: Gold</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Gold for Character 2.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46691</address>
+      <length>3</length>
+      <maxValue>9999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 2: Experience</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Character 2.&lt;/p&gt;&lt;p&gt;Levels will be gained after the next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46738</address>
+      <length>4</length>
+      <maxValue>999999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 3: Strength</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Strength for Character 3.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46882</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 3: Intelligence</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Intelligence for Character 3.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46883</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 3: Wisdom</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Wisdom for Character 3.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46884</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 3: Dexterity</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Dexterity for Character 3.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46885</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 3: Constitution</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Constitution for Character 3.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46886</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 3: Charisma</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Charisma for Character 3.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46887</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 3: Experience</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Character 3.&lt;/p&gt;&lt;p&gt;Levels will be gained after the next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46888</address>
+      <length>4</length>
+      <maxValue>999999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 3: Gold</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Gold for Character 3.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46841</address>
+      <length>3</length>
+      <maxValue>9999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 4: Strength</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Strength for Character 4.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>47032</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 4: Intelligence</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Intelligence for Character 4.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>47033</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 4: Wisdom</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Wisdom for Character 4.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>47034</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 4: Dexterity</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Dexterity for Character 4.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>47035</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 4: Constitution</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Constitution for Character 4.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>47036</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 4: Charisma</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Charisma for Character 4.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>47037</address>
+      <length>1</length>
+      <maxValue>18</maxValue>
+      <minValue>3</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 4: Experience</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Experience points for Character 4.&lt;/p&gt;&lt;p&gt;Levels will be gained after the next battle.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>47038</address>
+      <length>4</length>
+      <maxValue>999999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 4: Gold</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Gold for Character 4.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46991</address>
+      <length>3</length>
+      <maxValue>9999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 2: Maximum Hit Points</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Maximum Hit Points for Character 2.&lt;/p&gt;&lt;p&gt;Must rest party to see new value.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46689</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 2: Hit Points</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Hit Points for Character 2.&lt;/p&gt;&lt;p&gt;Must rest party to see new value.&lt;/p&gt;&lt;p&gt;Adjust maximum hit points accordingly.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46690</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 1: Maximum Hit Points</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Maximum Hit Points for Character 1.&lt;/p&gt;&lt;p&gt;Must rest party to see new value.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46539</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 1: Hit Points</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Hit Points for Character 1.&lt;/p&gt;&lt;p&gt;Must rest party to see new value.&lt;/p&gt;&lt;p&gt;Adjust maximum hit points accordingly.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46540</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 3: Maximum Hit Points</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Maximum Hit Points for Character 3.&lt;/p&gt;&lt;p&gt;Must rest party to see new value.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46839</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 3: Hit Points</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Hit Points for Character 3.&lt;/p&gt;&lt;p&gt;Must rest party to see new value.&lt;/p&gt;&lt;p&gt;Adjust maximum hit points accordingly.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46840</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 4: Maximum Hit Points</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Maximum Hit Points for Character 4.&lt;/p&gt;&lt;p&gt;Must rest party to see new value.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46989</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Character 4: Hit Points</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Hit Points for Character 4.&lt;/p&gt;&lt;p&gt;Must rest party to see new value.&lt;/p&gt;&lt;p&gt;Adjust maximum hit points accordingly.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>46990</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+  </properties>
+  <gameTitle>Warriors of the Eternal Sun</gameTitle>
+  <gameDescription>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;&lt;p&gt;Genecyst X/Gens save state for Dungeons &amp; Dragons - Warriors of the Eternal Sun.&lt;/p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</gameDescription>
+  <saveFilePattern>*.gs*</saveFilePattern>
+</com.huguesjohnson.hapsby.SaveGameDefinition>

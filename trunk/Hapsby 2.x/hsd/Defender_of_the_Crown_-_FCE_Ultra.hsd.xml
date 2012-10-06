@@ -1,0 +1,47 @@
+<com.huguesjohnson.hapsby.SaveGameDefinition>
+  <properties>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Gold</name>
+      <description>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;Amount of gold.&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1579</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Soldiers</name>
+      <description>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;Number of soldiers in your army.&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1511</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Knights</name>
+      <description>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;Number of knights in your army.&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1517</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Catapults</name>
+      <description>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;Number of catapults in your army.&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1523</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+  </properties>
+  <gameTitle>Defender of the Crown</gameTitle>
+  <gameDescription>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;&lt;p&gt;FCE Ultra save state for Defender of the Crown. &lt;/p&gt;&lt;p&gt;For best results save game on the map screen.&lt;/P&gt;&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</gameDescription>
+  <saveFilePattern>*.fc*</saveFilePattern>
+</com.huguesjohnson.hapsby.SaveGameDefinition>

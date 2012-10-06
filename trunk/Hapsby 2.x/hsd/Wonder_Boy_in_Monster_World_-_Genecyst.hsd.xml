@@ -1,0 +1,17 @@
+<com.huguesjohnson.hapsby.SaveGameDefinition>
+  <properties>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Gold</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#666699&gt;&lt;p&gt;Gold.&lt;/p&gt;&lt;p&gt;Press &apos;Start&apos; key in game to display new value.&lt;/p&gt;&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>47781</address>
+      <length>3</length>
+      <maxValue>999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+  </properties>
+  <gameTitle>Wonder Boy in Monster World</gameTitle>
+  <gameDescription>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;&lt;p&gt;Genecyst X/Gens save state for Wonder Boy in Monster World.&lt;/p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</gameDescription>
+  <saveFilePattern>*.gs*</saveFilePattern>
+</com.huguesjohnson.hapsby.SaveGameDefinition>

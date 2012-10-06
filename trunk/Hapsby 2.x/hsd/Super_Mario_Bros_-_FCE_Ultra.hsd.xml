@@ -1,0 +1,17 @@
+<com.huguesjohnson.hapsby.SaveGameDefinition>
+  <properties>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Lives</name>
+      <description>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;Number of lives. The game will end if you have more than 128 lives!&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1966</address>
+      <length>1</length>
+      <maxValue>128</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+  </properties>
+  <gameTitle>Super Mario Brothers I</gameTitle>
+  <gameDescription>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;FCE Ultra save state for Super Mario Brothers. Do you really need a cheat for this game?&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</gameDescription>
+  <saveFilePattern>*.fc*</saveFilePattern>
+</com.huguesjohnson.hapsby.SaveGameDefinition>

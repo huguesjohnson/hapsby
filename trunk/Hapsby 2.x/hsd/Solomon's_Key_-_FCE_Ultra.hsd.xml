@@ -1,0 +1,37 @@
+<com.huguesjohnson.hapsby.SaveGameDefinition>
+  <properties>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Scroll length</name>
+      <description>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;&lt;p&gt;Scroll length.&lt;/p&gt;&lt;p&gt;Screen will be updated after changing rooms.&lt;/p&gt;&lt;p&gt;Warning: total WILL roll back to zero.&lt;/p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1151</address>
+      <length>1</length>
+      <maxValue>8</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Faries</name>
+      <description>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;&lt;p&gt;Number of faries collected.&lt;/p&gt;&lt;p&gt;Screen will be updated after changing rooms.&lt;/p&gt;&lt;p&gt;Warning: total WILL roll back to zero.&lt;/p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1191</address>
+      <length>1</length>
+      <maxValue>9</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Lives</name>
+      <description>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;&lt;p&gt;Number of lives.&lt;/p&gt;&lt;p&gt;Screen will be updated after changing rooms.&lt;/p&gt;&lt;p&gt;Warning: total WILL roll back to zero.&lt;/p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>1190</address>
+      <length>1</length>
+      <maxValue>255</maxValue>
+      <minValue>1</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+  </properties>
+  <gameTitle>Solomon's Key</gameTitle>
+  <gameDescription>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;&lt;p&gt;FCE Ultra save state for Solomon's Key. &lt;/p&gt;&lt;p&gt;Changes will not be seen until you change rooms.&lt;/p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</gameDescription>
+  <saveFilePattern>*.fc*</saveFilePattern>
+</com.huguesjohnson.hapsby.SaveGameDefinition>

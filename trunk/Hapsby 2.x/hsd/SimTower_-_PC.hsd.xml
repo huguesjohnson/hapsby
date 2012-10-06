@@ -1,0 +1,17 @@
+<com.huguesjohnson.hapsby.SaveGameDefinition>
+  <properties>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Funds</name>
+      <description>&lt;html&gt;&lt;font color=#666699&gt;Funds &lt;/font&gt;&lt;font color=&quot;#008000&quot;&gt;$$$$&lt;/font&gt;&lt;p&gt;&lt;font color=#666699&gt;00 automatcally added to end of funds.&lt;/font&gt;&lt;/p&gt;&lt;/html&gt;</description>
+      <byteOrder>LOW_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>4</address>
+      <length>3</length>
+      <maxValue>1677215</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+  </properties>
+  <gameTitle>SimTower</gameTitle>
+  <gameDescription>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;&lt;p&gt;SimTower save game.&lt;/p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</gameDescription>
+  <saveFilePattern>*.tdt</saveFilePattern>
+</com.huguesjohnson.hapsby.SaveGameDefinition>

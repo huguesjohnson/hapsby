@@ -1,0 +1,27 @@
+<com.huguesjohnson.hapsby.SaveGameDefinition>
+  <properties>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Cash</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#009900&gt;Cash on hand.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>60148</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+    <com.huguesjohnson.hapsby.SaveGameProperty>
+      <name>Loan Balance</name>
+      <description>&lt;html&gt;&lt;b&gt;&lt;font color=#990000&gt;Amount you owe in loans.&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;</description>
+      <byteOrder>HIGH_BYTE_FIRST</byteOrder>
+      <dataType>TYPE_INTEGER</dataType>
+      <address>60156</address>
+      <length>4</length>
+      <maxValue>99999999</maxValue>
+      <minValue>0</minValue>
+    </com.huguesjohnson.hapsby.SaveGameProperty>
+  </properties>
+  <gameTitle>Theme Park</gameTitle>
+  <gameDescription>&lt;html&gt;&lt;font color=#666699&gt;&lt;b&gt;&lt;p&gt;Genecyst X/Gens save state for Theme Park. &lt;/p&gt;&lt;p&gt;Use with .gs# files, will NOT work with .gsv files.&lt;/p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/html&gt;</gameDescription>
+  <saveFilePattern>*.gs*</saveFilePattern>
+</com.huguesjohnson.hapsby.SaveGameDefinition>
