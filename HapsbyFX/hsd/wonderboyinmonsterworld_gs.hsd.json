@@ -1,0 +1,1 @@
+{"properties":[{"name":"Gold","description":"GoldPress 'Start' key in game to display new value","byteOrder":"HIGH_BYTE_FIRST","dataType":"TYPE_INTEGER","address":47781,"length":3,"maxValue":999999,"minValue":0}],"gameTitle":"Wonder Boy in Monster World (Genesis)","gameDescription":"Genecyst X/Gens save state for Wonder Boy in Monster World","saveFilePattern":"*.gs*"}

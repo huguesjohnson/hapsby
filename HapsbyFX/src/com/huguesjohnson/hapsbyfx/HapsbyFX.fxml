@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.huguesjohnson.hapsbyfx.HapsbyFXController">
+   <center>
+      <SplitPane dividerPositions="0.5" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <items>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="labelSelectValue" text="%label_selectpropery" />
+                  <ListView fx:id="listProperties" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+                  <ToolBar prefHeight="40.0" prefWidth="200.0">
+                    <items>
+                        <Label fx:id="labelCurrentValue" text="%label_currentvalue" />
+                        <TextField fx:id="textCurrentValue">
+                           <effect>
+                              <Blend />
+                           </effect></TextField>
+                        <Button fx:id="buttonSave" mnemonicParsing="false" onAction="#onSave">
+                           <graphic>
+                              <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@res/document-save.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                    </items>
+                  </ToolBar>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="labelSaveGameDescriptionHeader" text="%label_savegamedescription" underline="true">
+                     <VBox.margin>
+                        <Insets left="4.0" />
+                     </VBox.margin></Label>
+                  <Label fx:id="labelSaveGameDescription" text="                                                                                " wrapText="true">
+                     <VBox.margin>
+                        <Insets left="4.0" />
+                     </VBox.margin></Label>
+                  <Label fx:id="labelSelectedValueDescriptionHeader" text="%label_selectedvaluedescription" underline="true">
+                     <opaqueInsets>
+                        <Insets top="5.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="8.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets left="4.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="labelSelectedValueDescription" text="                                                                                " wrapText="true">
+                     <VBox.margin>
+                        <Insets left="4.0" />
+                     </VBox.margin></Label>
+                  <HBox fillHeight="false" prefWidth="335.0">
+                     <children>
+                        <Label fx:id="labelDataType" text="%label_datatype" HBox.hgrow="NEVER">
+                           <padding>
+                              <Insets top="8.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets left="4.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="labelDataTypeValue" text="        " HBox.hgrow="ALWAYS">
+                           <padding>
+                              <Insets top="8.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="15.0" prefWidth="335.0">
+                     <children>
+                        <Label fx:id="labelAddress" text="%label_address">
+                           <padding>
+                              <Insets top="8.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets left="4.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="labelAddressValue" text="          ">
+                           <padding>
+                              <Insets top="8.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="0.0" prefWidth="335.0">
+                     <children>
+                        <Label fx:id="labelBytes" text="%label_bytes">
+                           <padding>
+                              <Insets top="8.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets left="4.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="labelBytesValue" text="          ">
+                           <padding>
+                              <Insets top="8.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="0.0" prefWidth="335.0">
+                     <children>
+                        <Label fx:id="labelByteOrder" text="%label_byteorder">
+                           <padding>
+                              <Insets top="8.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets left="4.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="labelByteOrderValue" text="          ">
+                           <padding>
+                              <Insets top="8.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="0.0" prefWidth="335.0">
+                     <children>
+                        <Label fx:id="labelMinimumValue" text="%label_minvalue">
+                           <padding>
+                              <Insets top="8.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets left="4.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="labelMinimumValueValue" text="          ">
+                           <HBox.margin>
+                              <Insets top="8.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="4.0" prefWidth="335.0">
+                     <children>
+                        <Label fx:id="labelMaximumValue" text="%label_maxvalue">
+                           <padding>
+                              <Insets top="8.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets left="4.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="labelMaximumValueValue" text="          ">
+                           <HBox.margin>
+                              <Insets top="8.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </items>
+      </SplitPane>
+   </center>
+   <top>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <items>
+            <Label fx:id="labelSaveGame" text="%label_savegame" />
+            <TextField fx:id="textSaveGame" disable="true" />
+            <Button fx:id="buttonOpenSaveGame" mnemonicParsing="false" onAction="#onOpenSaveGame">
+               <graphic>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@res/document-open.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Separator orientation="VERTICAL" />
+            <Label fx:id="labelSaveGameDefinition" text="%label_savegamedefinition" />
+            <ChoiceBox fx:id="choiceSaveGameDefinition" prefHeight="31.0" prefWidth="244.0" />
+         </items>
+      </ToolBar>
+   </top>
+   <bottom>
+      <Label fx:id="labelStatus" BorderPane.alignment="CENTER_LEFT">
+         <padding>
+            <Insets left="2.0" />
+         </padding>
+      </Label>
+   </bottom>
+</BorderPane>
