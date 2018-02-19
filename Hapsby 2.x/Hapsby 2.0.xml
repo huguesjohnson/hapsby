@@ -109,7 +109,6 @@
                 <include name="**/${libSourcePath}/**/*"/>
                 <include name="**/${hsdSourcePath}/**/*"/>
                 <include name="Hapsby*.xml"/>
-                <include name="gpl.htm"/>
             </fileset>
         </zip>
         <!-- create the application package -->
@@ -121,7 +120,6 @@
                 <include name="**/${libSourcePath}/**/*"/>
                 <include name="**/${hsdSourcePath}/**/*"/>
                 <include name="Readme.html"/>
-                <include name="gpl.htm"/>
             </fileset>
     	</zip>
     </target>

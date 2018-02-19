@@ -1,5 +1,0 @@
-The folder contains the Hapsby source code.
-
-All code is covered under the GNU General Public License. Please read this file prior to using this source code.
-
-Deleting this folder will not affect the Hapsby program.
