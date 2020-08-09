@@ -47,6 +47,7 @@ public final class Hapsby{
                 this.gameDefinitions.add((SaveGameDefinition)gson.fromJson(reader,SaveGameDefinition.class));
             }
         }
+        this.gameDefinitions.sort((new SaveGameDefinitionComparator()));
     }
     
     public ArrayList<SaveGameDefinition> getSaveGameDefinitions(){
