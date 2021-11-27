@@ -11,12 +11,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 package com.huguesjohnson.hapsbyfx;
 
+import com.huguesjohnson.dubbel.fx.ImageUtil;
 import com.huguesjohnson.hapsby.DataType;
 import com.huguesjohnson.hapsby.Hapsby;
 import com.huguesjohnson.hapsby.SaveGameDefinition;
 import com.huguesjohnson.hapsby.SaveGameProperty;
 import com.huguesjohnson.hapsby.exceptions.SaveGameIOException;
 import com.huguesjohnson.hapsby.exceptions.ValidationException;
+
 import java.io.File;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -143,7 +145,10 @@ public class HapsbyFXController implements Initializable{
         });
         //setup save button
         this.buttonSave.setDisable(true);
-    }    
+        //fix images if they didn't load correctly - this is a CHRONIC problem with JavaFX
+        ImageUtil.drawButtonImageIfNotLoadedFromFXML(this.buttonOpenSaveGame,"document-open.png",HapsbyFXController.class);
+        ImageUtil.drawButtonImageIfNotLoadedFromFXML(this.buttonSave,"document-save.png",HapsbyFXController.class);
+    }
     
     @FXML
     void onSave(ActionEvent event){

@@ -11,7 +11,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 package com.huguesjohnson.hapsby.exceptions;
 
 public class ValidationException extends Exception{
-    private String field;
+	private static final long serialVersionUID=2553L;
+	private String field;
     private String expectedValue;
     private String actualValue;
     

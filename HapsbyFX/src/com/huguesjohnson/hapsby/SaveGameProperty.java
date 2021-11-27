@@ -14,7 +14,8 @@ package com.huguesjohnson.hapsby;
 import java.io.Serializable;
 
 public class SaveGameProperty implements Serializable{
-    private String name;
+	private static final long serialVersionUID=666L;
+	private String name;
     private String description;
     private ByteOrder byteOrder;
     private DataType dataType;
